@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SMP PvP Ranked Leaderboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+  }
+  header {
+    padding: 25px;
+    text-align: center;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+  }
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #30363d;
+  }
+  th {
+    background: #21262d;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  tr:hover {
+    background: #1c2128;
+  }
+  .rank {
+    color: #8b949e;
+  }
+  .elo {
+    font-weight: bold;
+    color: #f1c40f;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>SMP PvP Ranked Leaderboard</h1>
+  <p>Static GitHub Pages Version</p>
+</header>
+
+<main>
+  <table id="board">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Player</th>
+        <th>ELO</th>
+        <th>Wins</th>
+        <th>Losses</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<script>
+fetch("leaderboard.json")
+  .then(r => r.json())
+  .then(players => {
+    const tbody = document.querySelector("#board tbody");
+    players.sort((a, b) => b.elo - a.elo);
+
+    players.forEach((p, i) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td class="rank">${i + 1}</td>
+        <td>${p.name}</td>
+        <td class="elo">${p.elo}</td>
+        <td>${p.wins}</td>
+        <td>${p.losses}</td>
+      `;
+      tbody.appendChild(row);
+    });
+  });
+</script>
+
+</body>
+</html>
 
