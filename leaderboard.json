@@ -50,16 +50,16 @@
       "losses": 6,
       "overall": 999,
       "kits": {
-        "uhc": {"elo": 1043, "wins": 2, "losses": 1, "winstreak": 1},
+        "uhc": {"elo": 2032, "wins": 2, "losses": 1, "winstreak": 1},
         "sword": {"elo": 966, "wins": 2, "losses": 3, "winstreak": 0},
-        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "cartpvp": {"elo": 1014, "wins": 0, "losses": 0, "winstreak": 0},
         "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
         "mace": {"elo": 980, "wins": 0, "losses": 1, "winstreak": 0},
         "nethop": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
         "smp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
-        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
-        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
-        "vanilla": {"elo": 1000, "wins": 0, "losses": 1, "winstreak": 0},
+        "lifesteal": {"elo": 1017, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1016, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1015, "wins": 0, "losses": 1, "winstreak": 0},
         "axe": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0}
       }
     },
