@@ -1,1 +1,111 @@
-{"uuid":"3e0a6750-ca77-4635-9469-0c1c0a62a81b","username":"xvABYSS","verified":false,"wins":2,"losses":1,"overall":570,"kits":{"uhc":1000,"sword":1000,"cartpvp":1000,"pot":1000,"mace":999,"nethop":1000,"smp":1016,"lifesteal":1000,"spear-mace":1000,"vanilla":1000,"axe":1000}},{"uuid":"d6c9615d-9ef9-45a3-aa7a-0f49076e9751","username":"Nevbu","verified":true,"wins":10,"losses":8,"overall":997,"kits":{"uhc":1009,"sword":1064,"cartpvp":1000,"pot":1000,"mace":1470,"nethop":1016,"smp":1000,"lifesteal":1000,"spear-mace":1000,"vanilla":1000,"axe":1062}},{"uuid":"664116c2-f1dd-4aef-b55b-035c658c9c4c","username":"y1ixy","verified":false,"wins":14,"losses":6,"overall":999,"kits":{"uhc":1043,"sword":966,"cartpvp":1000,"pot":1000,"mace":980,"nethop":1000,"smp":1000,"lifesteal":1000,"spear-mace":1000,"vanilla":1000,"axe":1000}},{"uuid":"a2989be1-e9fe-463a-9137-85a569a15c93","username":"EyAd234","verified":false,"wins":1,"losses":1,"overall":326,"kits":{"uhc":1000,"sword":1000,"cartpvp":1000,"pot":1000,"mace":1016,"nethop":1000,"smp":984,"lifesteal":1000,"spear-mace":1000,"vanilla":1000,"axe":1000}},{"uuid":"fa6584de-017b-4979-9b66-2582e69ea177","username":"Osama_BinLagginn","verified":false,"wins":1,"losses":0,"overall":1001,"kits":{"uhc":1000,"sword":1015,"cartpvp":1000,"pot":1000,"mace":1000,"nethop":1000,"smp":1000,"lifesteal":1000,"spear-mace":1000,"vanilla":1000,"axe":1000}}
+{
+  "leaderboard": [
+    {
+      "uuid": "3e0a6750-ca77-4635-9469-0c1c0a62a81b",
+      "username": "xvABYSS",
+      "verified": false,
+      "wins": 2,
+      "losses": 1,
+      "overall": 570,
+      "kits": {
+        "uhc": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "sword": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "mace": {"elo": 999, "wins": 0, "losses": 0, "winstreak": 0},
+        "nethop": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "smp": {"elo": 1016, "wins": 0, "losses": 0, "winstreak": 0},
+        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "axe": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0}
+      }
+    },
+    {
+      "uuid": "d6c9615d-9ef9-45a3-aa7a-0f49076e9751",
+      "username": "Nevbu",
+      "verified": true,
+      "wins": 10,
+      "losses": 8,
+      "overall": 997,
+      "kits": {
+        "uhc": {"elo": 1009, "wins": 1, "losses": 1, "winstreak": 0},
+        "sword": {"elo": 1064, "wins": 5, "losses": 2, "winstreak": 2},
+        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "mace": {"elo": 1467, "wins": 3, "losses": 3, "winstreak": 0},
+        "nethop": {"elo": 1016, "wins": 1, "losses": 0, "winstreak": 1},
+        "smp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "axe": {"elo": 1062, "wins": 0, "losses": 2, "winstreak": 0}
+      }
+    },
+    {
+      "uuid": "664116c2-f1dd-4aef-b55b-035c658c9c4c",
+      "username": "y1ixy",
+      "verified": true,
+      "wins": 14,
+      "losses": 6,
+      "overall": 999,
+      "kits": {
+        "uhc": {"elo": 1043, "wins": 2, "losses": 1, "winstreak": 1},
+        "sword": {"elo": 966, "wins": 2, "losses": 3, "winstreak": 0},
+        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "mace": {"elo": 980, "wins": 0, "losses": 1, "winstreak": 0},
+        "nethop": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "smp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1000, "wins": 0, "losses": 1, "winstreak": 0},
+        "axe": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0}
+      }
+    },
+    {
+      "uuid": "a2989be1-e9fe-463a-9137-85a569a15c93",
+      "username": "EyAd234",
+      "verified": false,
+      "wins": 1,
+      "losses": 1,
+      "overall": 326,
+      "kits": {
+        "uhc": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "sword": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "mace": {"elo": 1016, "wins": 1, "losses": 0, "winstreak": 1},
+        "nethop": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "smp": {"elo": 984, "wins": 0, "losses": 1, "winstreak": 0},
+        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "axe": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0}
+      }
+    },
+    {
+      "uuid": "fa6584de-017b-4979-9b66-2582e69ea177",
+      "username": "Osama_BinLagginn",
+      "verified": false,
+      "wins": 1,
+      "losses": 0,
+      "overall": 1001,
+      "kits": {
+        "uhc": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "sword": {"elo": 1015, "wins": 1, "losses": 0, "winstreak": 1},
+        "cartpvp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "pot": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "nethop": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "smp": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "lifesteal": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "spear-mace": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "vanilla": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0},
+        "axe": {"elo": 1000, "wins": 0, "losses": 0, "winstreak": 0}
+      }
+    }
+  ],
+  "last_updated": "2026-04-19T20:15:00Z",
+  "total_players": 5
+}
